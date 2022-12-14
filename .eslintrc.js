@@ -5,11 +5,12 @@ module.exports = {
     node: true,
   },
   extends: 'airbnb-base',
-  overrides: [
-  ],
+  overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
   },
   rules: {
+    'class-methods-use-this': 'off',
+    'linebreak-style': 'off',
   },
 };
